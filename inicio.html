@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Inicio de sesión</title>
+  <link rel="stylesheet" type="text/css" href="inicio.css">
+</head>
+<body>
+  <h2>Hola </h2>
+  <nav class="navbar">
+      <a href="registro.html">registro</a>
+      <a href="index.html"> inicio </a>
+      <a href="productos.html">Productos</a>
+  </nav>
+  <div class="container">
+    <form action="iniciar_sesion.php" method="POST">
+      <h2>Inicio de sesión</h2>
+      <div class="form-group">
+        <label for="username">Correo electronico</label>
+        <input type="text" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Contraseña:</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      <button type="submit">Iniciar sesión</button>
+    </form>
+  </div>
+</body>
+</html>

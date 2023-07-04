@@ -1,0 +1,76 @@
+
+   
+   body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4 ;
+      margin:  80px;
+      padding: 35px;
+    }
+    
+    .container {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 80px;
+      background-color: #ffffff;
+      border: 1px solid #e4e4e4;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(34, 83, 175, 0.1);
+    }
+    
+    .container h2 {
+      text-align: center;
+      margin-bottom: 80px;
+    }
+    
+    .container input[type="text"],
+    .container input[type="email"],
+    .container input[type="password"] {
+      width: 92%;
+      padding: 15px;
+      margin-bottom: 10px;
+      border: 1px solid #111111;
+      border-radius: 10px;
+    }
+    
+    .container input[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      background-color: #2522a7;
+      color: #ffffff;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+    
+    .container input[type="submit"]:hover {
+      background-color: #0a7edd;
+    }
+    .navbar {
+      display: flex;
+      margin-right: 10px;
+      justify-content: center;
+  }
+  
+  .logo {
+      margin-left: 30px;
+  }
+  
+  .logo a {
+      text-decoration: none;
+      color: #fff;
+      text-transform: uppercase;
+      font-size: 20px;
+  }
+  
+  .navbar a {
+      display: block;
+      padding: 20px 20px;
+      color: #480fe6;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 20px;
+  }
+  
+  .navbar a:hover {
+      background: #3f3f3f;
+  }
