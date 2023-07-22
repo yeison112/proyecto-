@@ -1,0 +1,99 @@
+* {
+  font-family: "Arial", sans-serif;
+}
+
+/* Estilos para el contenedor principal */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
+/* Estilos para el formulario */
+.form-wrapper {
+  width: 300px;
+  padding: 50px;
+  border: 1px solid #182bda;
+  border-radius: 25px;
+  background-color: #fff;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+label {
+  font-weight: bold;
+  font-family: "Arial", sans-serif;
+}
+
+input[type="text"],
+input[type="password"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+input[type="submit"] {
+  padding: 10px;
+  background-color: #252fbd;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-family: "Arial", sans-serif;
+}
+
+input[type="submit"]:hover {
+  background-color: #261ac9;
+}
+
+/* Estilos para el navbar */
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 63px;
+  background: #171717;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+.navbar {
+  display: flex;
+  margin-right: 5px;
+}
+
+.logo {
+  margin-left: 30px;
+}
+
+.logo a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.navbar a {
+  display: block;
+  padding: 20px 20px;
+  color: #480fe6;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.navbar a:hover {
+  background: #3f3f3f;
+}
